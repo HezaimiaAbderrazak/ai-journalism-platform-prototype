@@ -1,0 +1,194 @@
+/* Updated: 2025-12-28T19:37:20.967Z */
+/* Updated: 2025-12-28T19:37:12.489Z */
+/* Updated: 2025-12-28T00:41:47.699Z */
+/* Updated: 2025-12-26T17:18:41.381Z */
+/* Updated: 2025-12-26T17:16:08.562Z */
+/* Updated: 2025-12-26T17:15:42.659Z */
+/* Updated: 2025-12-26T16:46:03.770Z */
+/* Updated: 2025-12-26T16:41:19.235Z */
+/* Updated: 2025-12-26T15:56:17.141Z */
+/* Updated: 2025-12-26T15:50:00.978Z */
+/* Updated: 2025-12-26T15:03:59.183Z */
+/* Updated: 2025-12-26T14:12:49.637Z */
+/* Updated: 2025-12-26T13:10:26.074Z */
+/* Updated: 2025-12-26T13:09:44.800Z */
+/* Updated: 2025-12-25T22:24:17.122Z */
+/* Updated: 2025-12-25T22:23:46.541Z */
+/* Updated: 2025-12-25T13:50:08.143Z */
+/* Updated: 2025-12-25T12:50:28.701Z */
+/* Updated: 2025-12-25T12:45:55.365Z */
+/* Updated: 2025-12-24T23:27:45.387Z */
+/* Updated: 2025-12-24T22:20:56.417Z */
+/* Updated: 2025-12-24T22:19:45.281Z */
+/* Updated: 2025-12-24T21:38:54.700Z */
+/* Updated: 2025-12-24T21:36:12.939Z */
+/* Updated: 2025-12-24T20:00:48.666Z */
+/* Updated: 2025-12-24T20:00:42.681Z */
+/* Updated: 2025-12-24T16:47:30.658Z */
+/* Updated: 2025-12-24T16:09:26.559Z */
+/* Updated: 2025-12-24T15:59:06.501Z */
+/* Updated: 2025-12-24T15:53:16.844Z */
+/* Updated: 2025-12-24T15:53:08.930Z */
+/* Updated: 2025-12-24T15:27:41.335Z */
+/* Updated: 2025-12-24T15:05:14.079Z */
+/* Updated: 2025-12-24T14:50:55.253Z */
+/* Updated: 2025-12-24T14:46:30.221Z */
+/* Updated: 2025-12-24T14:16:49.451Z */
+/* Updated: 2025-12-24T13:56:39.731Z */
+/* Updated: 2025-12-24T13:38:40.628Z */
+/* Updated: 2025-12-24T12:51:51.999Z */
+/* Updated: 2025-12-24T10:55:05.333Z */
+/* Updated: 2025-12-24T10:54:19.832Z */
+/* Updated: 2025-12-24T10:54:19.404Z */
+/* Updated: 2025-12-24T00:54:38.860Z */
+/* Updated: 2025-12-23T22:58:34.034Z */
+/* Updated: 2025-12-23T20:34:33.753Z */
+/* Updated: 2025-12-23T19:20:56.412Z */
+/* Updated: 2025-12-23T19:20:55.770Z */
+/* Updated: 2025-12-23T15:05:28.353Z */
+/* Updated: 2025-12-23T10:56:23.104Z */
+/* Updated: 2025-12-23T10:56:01.706Z */
+/* Updated: 2025-12-23T08:52:17.086Z */
+/* Updated: 2025-12-23T07:29:54.660Z */
+/* Updated: 2025-12-23T07:28:37.257Z */
+/* Updated: 2025-12-23T06:51:48.558Z */
+/* Updated: 2025-12-23T06:50:58.427Z */
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-readex: var(--font-readex);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  
+  --shadow-soft: 0 4px 20px -2px rgba(26, 86, 219, 0.08), 0 2px 8px -2px rgba(26, 86, 219, 0.04);
+  
+  --color-royal-blue: #1E40AF;
+  --color-electric-blue: #3B82F6;
+  --color-cloud-blue: #F8FAFC;
+  --color-dark-slate: #334155;
+  --color-page-bg: #F8FAFC;
+}
+
+:root {
+  --radius: 0.75rem;
+  --background: #F8FAFC;
+  --foreground: #334155;
+  --card: #FFFFFF;
+  --card-foreground: #334155;
+  --popover: #FFFFFF;
+  --popover-foreground: #334155;
+  --primary: #1E40AF;
+  --primary-foreground: #FFFFFF;
+  --secondary: #F1F5F9;
+  --secondary-foreground: #1E40AF;
+  --muted: #F8FAFC;
+  --muted-foreground: #64748B;
+  --accent: #F1F5F9;
+  --accent-foreground: #1E40AF;
+  --destructive: #EF4444;
+  --border: #E2E8F0;
+  --input: #E2E8F0;
+  --ring: #3B82F6;
+  --chart-1: #1E40AF;
+  --chart-2: #3B82F6;
+  --chart-3: #10B981;
+  --chart-4: #F59E0B;
+  --chart-5: #6366F1;
+  --sidebar: #1E40AF;
+  --sidebar-foreground: #FFFFFF;
+  --sidebar-primary: #3B82F6;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: rgba(255, 255, 255, 0.1);
+  --sidebar-accent-foreground: #FFFFFF;
+  --sidebar-border: rgba(255, 255, 255, 0.1);
+  --sidebar-ring: #3B82F6;
+  
+  --shadow-soft: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.dark {
+  --background: #F8FAFC;
+  --foreground: #334155;
+  --card: #FFFFFF;
+  --card-foreground: #334155;
+  --popover: #FFFFFF;
+  --popover-foreground: #334155;
+  --primary: #1E40AF;
+  --primary-foreground: #FFFFFF;
+  --secondary: #F1F5F9;
+  --secondary-foreground: #1E40AF;
+  --muted: #F8FAFC;
+  --muted-foreground: #64748B;
+  --accent: #F1F5F9;
+  --accent-foreground: #1E40AF;
+  --destructive: #EF4444;
+  --border: #E2E8F0;
+  --input: #E2E8F0;
+  --ring: #3B82F6;
+  --sidebar: #1E40AF;
+  --sidebar-foreground: #FFFFFF;
+  --sidebar-primary: #3B82F6;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: rgba(255, 255, 255, 0.1);
+  --sidebar-accent-foreground: #FFFFFF;
+  --sidebar-border: rgba(255, 255, 255, 0.1);
+  --sidebar-ring: #3B82F6;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-readex selection:bg-royal-blue/20;
+  }
+}
+
+.glass-panel {
+  @apply bg-white/70 backdrop-blur-md border border-white/40 shadow-soft;
+}
+
+.bento-card {
+  @apply bg-white border border-border rounded-xl transition-all duration-300 hover:border-royal-blue/40 hover:shadow-soft;
+}
+
+.blue-shadow {
+  box-shadow: var(--shadow-soft);
+}
